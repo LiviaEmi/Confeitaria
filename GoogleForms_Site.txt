@@ -1,0 +1,45 @@
+AUTO
+https://docs.google.com/forms/d/e/1FAIpQLSe7GXsaweggBE3Zi23youI1hy2IhWnJU8O-prDOas12w9z5Nw/viewform?usp=pp_url&entry.2031570011=NOME_CLIENTE_AUTO&entry.626025703=Bolo+de+festa&entry.764942230=QUANTIDADE_AUTO&entry.732569786=WPP_AUTO&entry.2061784476=ENDERECO_AUTO
+
+PLANILHAS
+https://docs.google.com/spreadsheets/d/e/2PACX-1vSPq-h-Tb4zY6prw75Q2H3kW4EYhpsWx8dTeyJ75L7CVD1-0-NOrNdx-LMToorHTuO_WBCQ42YMIG5D/pubhtml
+
+1. criar um formulário com todas as perguntas no formulário
+2. no formulário, ir na aba "respostas" e clicar "ver no app planilhas"
+3. em planilhas, publicar na web: arquivo > compartilhar > publicar na web (copiar o link)
+4. voltar no formulário, nos 3 pontinhos, clicar em "preencher formulário automaticamente"
+5. responder as perguntas: nome_auto, endereco_auto ... > gerar link (copiar o link)
+6. criar uma pasta no pc com o nome do projeto
+7. abrir o antigravity, selecionar a pasta do projeto
+8. no lado direito, escreva um script, por exemplo: 
+[ atuando como um dev senior para soluções web, precisamos construir uma página, principalmente para celular, para a loja "Wabi Sabi". Essa loja é uma confeitaria que atende pelo número do whatsapp (19) 99999999 (criar um btn de whatsapp para contato rápido com a loja). Focar nas cores verde limão e branco. Usar desenhos de linhas simples em 2d em formato de bolo com pernas e braços.
+neste momento, a ideia da plataforma é fazer encomenda de pedidos. hj eles usam esse forms e nao querem deixar usar: < inserir link do formulário com as respostas automáticas > https://docs.google.com/forms/d/e/1FAIpQLSe7GXsaweggBE3Zi23youI1hy2IhWnJU8O-prDOas12w9z5Nw/viewform?usp=pp_url&entry.2031570011=NOME_CLIENTE_AUTO&entry.626025703=Bolo+de+festa&entry.764942230=QUANTIDADE_AUTO&entry.732569786=WPP_AUTO&entry.2061784476=ENDERECO_AUTO
+
+As opções são: 
+<Copiar os tópicos do formulário aqui > <EXEMPLO:>
+Nome clientes
+*
+NOME_CLIENTE_AUTO
+Informe o produto desejado para a encomenda
+*
+Bolo de festa
+Bolo caseiro
+Cookies
+Quantidade: em caso de bolo quantas pessoas; em caso de cookies informar unidades
+*
+QUANTIDADE_AUTO
+Informe o número do whatsapp
+*
+WPP_AUTO
+Informe seu endereço
+*
+ENDERECO_AUTO
+
+Esse projeto vai ser utilizado via vercel, o repositório é: < Inserir o repositório do git > https://github.com/LiviaEmi/Confeitaria
+
+-------------------------------------------------------
+
+* vai digitando "continue" quando ele parar, às vezes aparecerá um botão azul, clique nele
+- depois digite na IA: atualize o github
+9. cria um repositório no github
+10. vai no vercel.com, cria um projeto com o link do repositório e publica
