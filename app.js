@@ -41,12 +41,33 @@ document.addEventListener('DOMContentLoaded', () => {
             successMsg.className = 'success-message';
             successMsg.innerHTML = `
                 <i class="fa-solid fa-circle-check" style="font-size: 3.5rem; color: var(--primary-color); margin-bottom: 1.5rem;"></i>
+                <button id="newOrderBtn" class="submit-btn" style="margin-bottom: 2rem; background-color: var(--primary-color); color: var(--text-dark);">Fazer mais um pedido</button>
                 <h3 style="font-size: 1.8rem; color: var(--primary-color); margin-bottom: 1rem;">Pedido recebido com sucesso!</h3>
                 <p style="font-size: 1.1rem; color: #FFFFFF;">Obrigada por nos escolher! Em breve entraremos em contato com você via whatsapp.</p>
             `;
             
             // Insert success message where the form was
             orderForm.parentNode.appendChild(successMsg);
+
+            // Configure the "new order" button
+            document.getElementById('newOrderBtn').addEventListener('click', () => {
+                // Remove success message
+                successMsg.remove();
+                
+                // Reset form fields
+                orderForm.reset();
+                
+                // Show form again
+                orderForm.style.display = 'block';
+                
+                // Reset submit button text and state
+                const submitBtn = orderForm.querySelector('.submit-btn');
+                submitBtn.innerHTML = 'Continuar Encomenda <i class="fa-solid fa-arrow-right"></i>';
+                submitBtn.disabled = false;
+                
+                // Reset submitted flag
+                submitted = false;
+            });
         }
     });
 });
